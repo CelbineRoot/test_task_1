@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "composite": true,
+    "outDir": "build",
+    "rootDir": "./src"
+  },
+  "sourceMap": true,
+  "include": ["**/*.ts", "./src/**/*.json"],
+  "exclude": ["node_modules", ".coverage", "build"]
+}

@@ -1,0 +1,1 @@
+export const servicePattern = 'common-game-service';

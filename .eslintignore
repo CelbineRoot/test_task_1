@@ -1,0 +1,11 @@
+build
+node_modules
+*.json
+*.md
+*.sql
+*.env
+*.js
+*.toml
+*.prisma
+*.tsbuildinfo
+Dockerfile

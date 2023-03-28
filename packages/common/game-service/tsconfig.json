@@ -1,0 +1,12 @@
+{
+  "extends": "../../../tsconfig.json",
+  "compilerOptions": {
+    "strict": true,
+
+    "outDir": "./build",
+    "declarationDir": "./build/types/",
+    "baseUrl": "../../"
+  },
+  "include": ["."],
+  "exclude": ["node_modules", "**/*.test.ts", "./build"]
+}

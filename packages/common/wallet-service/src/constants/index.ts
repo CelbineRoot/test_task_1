@@ -1,0 +1,1 @@
+export const servicePattern = 'common-wallet-service';
